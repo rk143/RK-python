@@ -1,3 +1,3 @@
-a=int(input())
-for i in range(a):
+times=int(input())
+for i in range(times):
   print("Hello")
