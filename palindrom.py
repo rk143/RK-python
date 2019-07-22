@@ -1,0 +1,11 @@
+r=int(input())
+t=r
+s=0
+while(r>0):
+    dig=r%10
+    s=s*10+dig
+    r=r//10
+if(t==s):
+  print("yes")
+else:
+  print("no")
